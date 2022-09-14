@@ -60,11 +60,14 @@ width: 40%
      
  }
 
+
 @media screen and (max-width:768px) {
     body{
         overflow-x: hidden;
+        width: 100%;
     }
     .navlink{
+        overflow-x: hidden;
     position: absolute;
     right: 0px;
     height: 92vh;
