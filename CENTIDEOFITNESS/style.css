@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: lightgray;
+}
+
+
+.centideo{
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font: 20px;
+    font-weight: bold;
+}
+
+.navlink{
+display: flex;
+justify-content: space-around;
+width: 40%
+
+}
+
+.navlink li{
+    list-style: none;
+}
+
+.navlink a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mobilenav{
+    display: none;
+    cursor: pointer;
+}
+
+.mobilenav div{
+    width: 20px;
+    height: 3px;
+    margin: 3px;
+    background-color: black;
+    
+}
+
+@media screen and (max-width:1024px) {
+   
+    .navlink{
+        width: 45%
+    }
+     
+ }
+
+@media screen and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navlink{
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #C4c4c4;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.5s ease-in;
+    transform: translateX(100%)
+   }
+    
+   .navlinkli{
+    opacity: 0;
+   }
+
+   .mobilenav {
+    display: block;
+   
+   }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+.motivation{
+    margin: 0%;
+    display: flex;
+    color: #C4c4c4;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 25%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-position: center;
+    background-image: url("aqd1r-s09ya.jpg");
+    width: 76%;
+    height: 92vh;
+    flex-direction: column;
+
+}
+
+
+
+.bobo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width:768px) {
+    .motivation {
+        width: 75%;
+        background-image: url('mobilexdxd.jpg');
+        background-position: top;
+    }
+}
