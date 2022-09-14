@@ -1,4 +1,5 @@
 *{
+    background-repeat: no-repeat;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -52,7 +53,8 @@ width: 40%
     
 }
 
-@media screen and (max-width:1024px) {
+
+@media screen and (max-width:750px) {
    
     .navlink{
         width: 45%
@@ -61,13 +63,14 @@ width: 40%
  }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
     body{
         overflow-x: hidden;
         width: 100%;
     }
     .navlink{
-        overflow-x: hidden;
+    
+    overflow-x: hidden;
     position: absolute;
     right: 0px;
     height: 92vh;
@@ -108,7 +111,8 @@ width: 40%
     width: 76%;
     height: 92vh;
     flex-direction: column;
-
+    background-color: black;
+    max-height: 1000px;
 }
 
 
