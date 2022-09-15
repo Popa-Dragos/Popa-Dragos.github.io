@@ -53,6 +53,44 @@ width: 40%
     
 }
 
+@media screen and (min-width:1500px) {
+   
+    h1{
+        font-size: 48px;
+    }
+     
+    h2{
+        font-size: 39px;
+    }
+
+    .navlink{
+        font-size: 18px;
+    }
+
+    .centideo{
+        font-size: 18px;
+    }
+ }
+
+@media screen and (min-width:1900px) {
+   
+    h1{
+        font-size: 64px;
+    }
+     
+    h2{
+        font-size: 54px;
+    }
+
+    .navlink{
+        font-size: 24px;
+    }
+
+    .centideo{
+        font-size: 24px;
+    }
+ }
+
 
 @media screen and (max-width:750px) {
    
