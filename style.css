@@ -145,7 +145,7 @@ width: 40%
     padding-top: 10vh;
     padding-bottom: 10vh;
     background-position: center;
-    background-image: url("aqd1r-s09ya.jpg");
+    background-image: url("horzBg.jpg");
     width: 76%;
     height: 92vh;
     flex-direction: column;
@@ -165,7 +165,44 @@ width: 40%
 @media screen and (max-width:768px) {
     .motivation {
         width: 75%;
-        background-image: url('mobilexdxd.jpg');
+        background-image: url('vertBg.jpg');
         background-position: top;
     }
+}
+
+
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 92vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.despre{
+    margin: 0%;
+    display: flex;
+    color: #C4c4c4;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 25%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-position: center;
+    background-image: url("horzBg.jpg");
+    width: 76%;
+    height: 92vh;
+    flex-direction: column;
+    background-color: black;
+    max-height: 1000px;
+    margin-top: 5vh;
 }
