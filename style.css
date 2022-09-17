@@ -1,5 +1,5 @@
-*{  
-    overflow-x: hidden;
+*{
+
     background-repeat: no-repeat;
     padding: 0px;
     margin: 0px;
@@ -8,9 +8,9 @@
 }
 
 html, body {
-        overflow-x: hidden;
-        position: relative;
- }
+    overflow-x: hidden;
+    position: relative;
+}
 
 nav{
     display: flex;
@@ -58,6 +58,7 @@ width: 40%
     background-color: black;
     
 }
+
 
 @media screen and (min-width:1500px) {
    
@@ -107,13 +108,12 @@ width: 40%
  }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:645px) {
     body{
         overflow-x: hidden;
         width: 100%;
     }
     .navlink{
-    
     overflow-x: hidden;
     position: absolute;
     right: 0px;
@@ -138,6 +138,7 @@ width: 40%
 }
 
 .nav-active{
+    
     transform: translateX(0%);
 }
 
@@ -187,7 +188,7 @@ width: 40%
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
-    color: red;
+    color: white;
 }
 
 .flex{
@@ -211,4 +212,64 @@ width: 40%
     background-color: black;
     max-height: 1000px;
     margin-top: 5vh;
+}
+
+.centerres{
+  justify-content: space-around;
+
+}
+
+.calculatorbmi{
+    max-height: 600px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    background-color: grey;
+    color: white;
+    height: 82vh;
+    
+}
+
+.calculatorcalorii{
+    max-height: 600px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    background-color: grey;
+    color: white;
+    height: 82vh;
+}
+
+@media screen and (max-width:768px) {
+
+    .centerres{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .calculatorbmi{
+        width: 80%;
+        margin-top: 5vh;
+    }
+
+    .calculatorcalorii{
+        width: 80%;
+        margin-top: 5vh;
+    }
+}
+
+.Calculeaza{
+    
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
 }
