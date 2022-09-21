@@ -17,22 +17,23 @@ nav{
     justify-content:  space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: lightgray;
+    background-color: #232323;
 }
 
 
 .centideo{
-    color:black;
+    color: #30A503;
     text-transform: uppercase;
     letter-spacing: 5px;
     font: 20px;
     font-weight: bold;
+    user-select: none;
 }
 
 .navlink{
-display: flex;
-justify-content: space-around;
-width: 40%
+    display: flex;
+    justify-content: space-around;
+    width: 40%
 
 }
 
@@ -41,7 +42,7 @@ width: 40%
 }
 
 .navlink a{
-    color: black;
+    color: #c1c1c1;
     text-decoration: none;
     font-weight: bold;
 }
@@ -55,7 +56,7 @@ width: 40%
     width: 20px;
     height: 3px;
     margin: 3px;
-    background-color: black;
+    background-color: #30A503;
     
 }
 
@@ -117,9 +118,9 @@ width: 40%
     overflow-x: hidden;
     position: absolute;
     right: 0px;
-    height: 92vh;
+       height: 92vh;
     top: 8vh;
-    background-color: #C4c4c4;
+    background-color: #232323;
     width: 40%;
     flex-direction: column;
     align-items: center;
@@ -154,7 +155,7 @@ width: 40%
     background-position: center;
     background-image: url("horzBg.jpg");
     width: 76%;
-    height: 92vh;
+    height: 80vh;
     flex-direction: column;
     background-color: black;
     max-height: 1000px;
@@ -163,6 +164,7 @@ width: 40%
 
 
 .bobo{
+    height:92vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,47 +173,36 @@ width: 40%
 
 @media screen and (max-width:768px) {
     .motivation {
-        width: 75%;
+        width: 85%;
         background-image: url('vertBg.jpg');
         background-position: top;
+        background-size: 85%;
+        color: white;
     }
 }
 
 
 
 .contact{
+    color: #C4c4c4;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: black;
-    height: 92vh;
-    margin-left: 10%;
-    margin-right: 10%;
     width: 80%;
-    color: white;
+    height: 80vh;
 }
 
 .flex{
     display: flex;
-}
-
-.despre{
-    margin: 0%;
-    display: flex;
-    color: #C4c4c4;
-    justify-content: space-around;
-    padding-left: 5%;
-    padding-right: 25%;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    background-position: center;
-    background-image: url("horzBg.jpg");
-    width: 76%;
-    height: 92vh;
-    flex-direction: column;
-    background-color: black;
-    max-height: 1000px;
-    margin-top: 5vh;
+} 
+@media screen and (max-width:768px) {
+    .despre {
+        width: 85%;
+        background-image: url('vertBg.jpg');
+        background-position: top;
+        background-size: 85%;
+    }
 }
 
 .centerres{
@@ -220,29 +211,22 @@ width: 40%
 }
 
 .calculatorbmi{
-    max-height: 600px;
     flex-direction: column;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 45%;
-    background-color: grey;
-    color: white;
-    height: 82vh;
+    width: 75%;
+    background-color: black;
+    color: #c1c1c1;
+    height: 80vh;
     
 }
 
-.calculatorcalorii{
-    max-height: 600px;
-    flex-direction: column;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 45%;
-    background-color: grey;
-    color: white;
-    height: 82vh;
-}
+input[type="text"], textarea {
+
+    background-color : #c4c4c4; 
+  
+  }
 
 @media screen and (max-width:768px) {
 
@@ -253,7 +237,6 @@ width: 40%
 
     .calculatorbmi{
         width: 80%;
-        margin-top: 5vh;
     }
 
     .calculatorcalorii{
@@ -272,4 +255,18 @@ width: 40%
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
+}
+.flexwrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    max-width: 40vw;
+}
+
+.actual{
+    color: green !important;
 }
